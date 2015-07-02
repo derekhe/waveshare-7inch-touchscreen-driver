@@ -71,3 +71,14 @@ I didn't write any calibration because my touchscreen is working fine.
 
 ## Multitouch
 Hmmm, I'm lazy, do it yourself.
+
+## Other displays
+I received an email from Adam, this driver may work with another type of screen:
+
+> Hi there. Wanted to say thank you for writing and sharing the user space driver for 7" USB touchscreen, you have saved me!
+
+> Mine is branded Eleduino (see here for details: http://www.eleduino.com/5-Inch-HDMI-Input-Touch-Screen-for-Raspberry-PI-2-B-B-and-Banana-pro-pi-p10440.html) and I had exactly the same issue - closed source binary driver which simply replaced kernel modules.
+
+> Your solution worked out of the box, and didn't even need calibration.
+
+> You're a hero!
