@@ -29,6 +29,7 @@ def read_and_emulate_mouse(deviceFound):
             b = f.read(25)
             (tag, btnLeft, x, y) = struct.unpack_from('>c?HH', b)
             print(btnLeft, x, y)
+            time.sleep(0.01) 
 
             if btnLeft:
                 device.emit(uinput.ABS_X, x, True)
