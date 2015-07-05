@@ -66,9 +66,6 @@ I use python to read from hidraw driver and then use uinput to emulate the mouse
 ## Other systems
 I think this driver can work in any linux system with hidraw and uinput driver support.
 
-## Calibration and Multitouch
-Please try this driver and if you need to support multitouch and calibration, please [contact me](derekhe@april1985.com) to get the pro version.
-
 ## Other displays
 I received an email from Adam, this driver may work with another type of screen:
 
@@ -79,3 +76,17 @@ I received an email from Adam, this driver may work with another type of screen:
 > Your solution worked out of the box, and didn't even need calibration.
 
 > You're a hero!
+
+# Pro version features
+Please try this driver and if you need to support more, please [contact me](derekhe@april1985.com) to get the paid pro version.
+
+1 More options:
+  -  Set right click duration
+
+2 Calibration:
+  - On screen calibration
+  - Scalable external screen calibration. So you can use touchscreen as a external touch panel
+
+3 Multitouch:
+  - Two fingures touch to simulate right click
+  - Three fingures to scrool
