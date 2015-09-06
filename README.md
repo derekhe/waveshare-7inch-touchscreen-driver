@@ -8,15 +8,19 @@ OK. If they company won't want to provide anything, that's fine. I finally find 
 
 Tested using official image: 2015-05-05-raspbian-wheezy.img
 
-# Install
+This is what my hack does.
+- Make 7-inch display working.
+- Make touch panel working.
+
+# Install (Thanks Kaz Fukuoka to fix this guide)
 ssh into your raspiberry
 
-clone this repo into any dir,then
-
 ```
+git clone https://github.com/derekhe/wavesahre-7inch-touchscreen-driver
+cd wavesahre-7inch-touchscreen-driver
 chmod +x install.sh
-./install.sh
-
+sudo apt-get update
+sudo ./install.sh
 sudo restart
 ```
 
