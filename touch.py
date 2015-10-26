@@ -26,10 +26,15 @@ def read_and_emulate_mouse(deviceFound):
         startTime = time.time()
 
         while True:
-            b = f.read(25)
-            (tag, btnLeft, x, y) = struct.unpack_from('>c?HH', b)
-            print(btnLeft, x, y)
-            time.sleep(0.01) 
+            try:
+                b = f.read(25)
+                (tag, btnLeft, x, y) = struct.unpack_from('>c?HH', b)
+                print(btnLeft, x, y)
+            except:
+                print('failed to read from deviceFound' + str(deviceFound))
+                return
+            
+            time.sleep(0.01)
 
             if btnLeft:
                 device.emit(uinput.ABS_X, x, True)
