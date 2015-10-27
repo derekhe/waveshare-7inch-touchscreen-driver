@@ -16,7 +16,7 @@ This is what my hack does.
 ssh into your raspiberry
 
 ```
-git clone https://github.com/derekhe/wavesahre-7inch-touchscreen-driver
+git clone https://github.com/derekhe/waveshare-7inch-touchscreen-driver
 cd wavesahre-7inch-touchscreen-driver
 chmod +x install.sh
 sudo apt-get update
@@ -81,7 +81,7 @@ I received an email from Adam, this driver may work with another type of screen:
 
 > You're a hero!
 
-# Pro version features
+# Pro version features (in progress)
 Please try this driver and if you need to support more, please [contact me](derekhe@april1985.com) to get the paid pro version.
 
 1 More options:
