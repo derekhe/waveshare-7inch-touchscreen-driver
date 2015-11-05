@@ -8,9 +8,9 @@ OK. If they company won't want to provide anything, that's fine. I finally find 
 
 Tested using official image: 2015-05-05-raspbian-wheezy.img
 
-** NOTE: I do not guarantee this driver will work on other system/other displays. If you have trouble, or make it work on other system/displays, please make a pull request, I'll help to merge it into master branch. **
+**NOTE: I do not guarantee this driver will work on other system/other displays. If you have trouble, or make it work on other system/displays, please make a pull request, I'll help to merge it into master branch.**
 
-** If any help needed, do not send an email to me directly, please raise an issue so that your question can be solved quicker. **
+**If any help needed, do not send an email to me directly, please raise an issue so that your question can be solved quicker.**
 
 This is what my hack does.
 - Make 7-inch display working.
