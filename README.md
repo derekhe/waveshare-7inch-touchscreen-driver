@@ -1,4 +1,7 @@
 Donate to help develop more features
+====================================
+![WeChat Donate](https://cloud.githubusercontent.com/assets/1734077/12530004/62ddcc4a-c209-11e5-85a8-9a415d00b261.png)
+![Alipay Donate](https://cloud.githubusercontent.com/assets/1734077/12530006/63d16602-c209-11e5-8a98-e7ded93964c6.png)
 
 WaveShare 7-inch user space driver
 ===================================
