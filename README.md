@@ -1,3 +1,5 @@
+Donate to help develop more features
+
 WaveShare 7-inch user space driver
 ===================================
 I brought a [WaveShare 7-inch HDMI LCD](http://www.waveshare.net/shop/7inch-HDMI-LCD-B.htm) and it provides a USB touchscreen.
@@ -93,7 +95,6 @@ Please try this driver and if you need to support more, please [contact me](dere
 
 2 Calibration:
   - On screen calibration
-  - Scalable external screen calibration. So you can use touchscreen as a external touch panel
 
 3 Multitouch:
   - Two fingures touch to simulate right click
