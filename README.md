@@ -1,11 +1,20 @@
-Donate to help develop more features
-====================================
+Update about new device
+=======================
+I heared that waveshare developed a new version of the touchscreen which uses standard HID protocol. By using this new version, we don't need driver any more. The HID protocol can be used in linux, windows 10 IoT and even desktop (I didn't try)
+
+If you want to upgrade your device, please send it back and let them upgrade for you.
+
+I will stop develop this driver and keep the functionality the same.
+
+Help develop more features
+==========================
 <a href='https://pledgie.com/campaigns/30994'><img alt='Click here to lend your support to: Pro version for waveshare screen driver and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30994.png?skin_name=chrome' border='0' ></a>
 
 Chinese user options:
 
 ![WeChat Donate](https://cloud.githubusercontent.com/assets/1734077/12530004/62ddcc4a-c209-11e5-85a8-9a415d00b261.png)
 ![Alipay Donate](https://cloud.githubusercontent.com/assets/1734077/12530006/63d16602-c209-11e5-8a98-e7ded93964c6.png)
+
 
 
 WaveShare 7-inch user space driver
@@ -99,7 +108,7 @@ I received an email from Adam, this driver may work with another type of screen:
 
 I found another guy wrote a C++ driver for this. Please refer to https://github.com/110yd/wshare-touchscreen.
 
-# Pro version features (in progress)
+# Pro version features (STOP DEVELOPMENT)
 Please try this driver and if you need to support more, please [contact me](derekhe@april1985.com) to get the paid pro version.
 
 1 More options:
