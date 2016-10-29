@@ -6,22 +6,9 @@ If you want to upgrade your device, please send it back and let them upgrade for
 
 I will stop develop this driver and keep the functionality the same.
 
-Thanks for the donation
-==========================
-Donation received from:
-* Jendrik Bulk
-* Ko Ko Ye
-
-Donate options
-=========================
-<a href='https://pledgie.com/campaigns/30994'><img alt='Click here to lend your support to: Pro version for waveshare screen driver and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30994.png?skin_name=chrome' border='0' ></a>
-
-Chinese user options:
-
-![WeChat Donate](https://cloud.githubusercontent.com/assets/1734077/12530004/62ddcc4a-c209-11e5-85a8-9a415d00b261.png)
-![Alipay Donate](https://cloud.githubusercontent.com/assets/1734077/12530006/63d16602-c209-11e5-8a98-e7ded93964c6.png)
-
-
+Support this driver
+===================
+Support me by [registering a DigitalOcean account](https://m.do.co/c/4bc532e3ef94), you will get a $10 credict for free.
 
 WaveShare 7-inch user space driver
 ===================================
