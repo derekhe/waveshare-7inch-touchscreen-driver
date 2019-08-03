@@ -1,0 +1,21 @@
+#!/bin/bash
+CONFIG=/boot/config.txt
+
+# Adjusts or adds the required changes based on existing config.txt
+
+# you can add or change, just make sure to keep things aligned correctly between the arrays
+CONF=( hdmi_force_hotplug hdmi_group hdmi_mode max_usb_current hdmi_cvt )
+VAL=( 1 2 87 1 "800 480 60 6 0 0 0" )
+
+for (( i=0; i<${#CONF[@]}; i++ ))
+do
+	lines=$(grep -i "${CONF[$i]}" ${CONFIG} | grep -vE '\s*?#' | wc -l)
+	if [ ${lines:-0} -gt 0 ]
+	then
+		#adjust the existing line
+		sed -i "s/^\s*${CONF[$i]}.*/${CONF[$i]} = ${VAL[$i]}/" ${CONFIG}
+	else
+		#add a line at the end
+		echo "${CONF[$i]} = ${VAL[$i]}" >> ${CONFIG}
+	fi
+done

@@ -18,7 +18,7 @@ def check_device(thedevice):
         with open(thedevice.device_node, 'rb') as f:
             print("Opening device and initiating mouse emulation.")
             tasks.clear()
-            tasks.append(asyncio.async(read_and_emulate_mouse(f)))
+            tasks.append(asyncio.ensure_future(read_and_emulate_mouse(f)))
             loop.run_until_complete(asyncio.wait(tasks))
             print("Device async task terminated.")
 
