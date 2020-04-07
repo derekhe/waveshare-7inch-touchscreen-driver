@@ -9,9 +9,11 @@ diff -r C:\Users\hesicong\Desktop\compare\config.txt C:\Users\hesicong\Desktop\c
 < #hdmi_mode=1
 ---
 > # uncomment to force a specific HDMI mode (here we are forcing 800x480!)
+> config_hdmi_boost=7
 > hdmi_group=2
-> hdmi_mode=1
 > hdmi_mode=87
-> hdmi_cvt 800 480 60 6 0 0 0
+> hdmi_drive=1
+> display_rotate=0
+> hdmi_cvt 1024 600 60 6 0 0 0
 30a32
 > max_usb_current=1
