@@ -40,6 +40,15 @@ sudo ./install.sh
 sudo restart
 ```
 
+/boot/config.txt
+```
+max_usb_current=1
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 1024 600 60 6 0 0 0
+hdmi_drive=1
+```
+
 # How do I hack it
 By looking at the dmesg information, we can see it is installed as a hid-generic driver, the vendor is 0x0eef(eGalaxy) and product is 0x0005.
 0x0005 can't be found anywhere, I think the company wrote their own driver to support this.
